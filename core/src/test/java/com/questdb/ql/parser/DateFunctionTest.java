@@ -38,7 +38,7 @@ public class DateFunctionTest extends AbstractOptimiserTest {
 
     @Test
     public void testToCharTZLocale() throws Exception {
-        assertThat("Пт, 20 мар 2015 08:25:40.567 PDT\n", "select TO_CHAR(TO_DATE('2015-03-20T15:25:40.567Z'), 'E, dd MMM y HH:mm:ss.SSS Z', 'PDT', 'ru') from dual");
+        assertThat("пт, 20 мар. 2015 08:25:40.567 PDT\n", "select TO_CHAR(TO_DATE('2015-03-20T15:25:40.567Z'), 'E, dd MMM y HH:mm:ss.SSS Z', 'PDT', 'ru') from dual");
     }
 
     @Test

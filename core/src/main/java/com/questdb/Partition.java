@@ -487,6 +487,24 @@ public class Partition<T> implements Closeable {
                     case ColumnType.BINARY:
                         appendBin(obj, i, m);
                         break;
+                    case ColumnType.DATE:
+                        ((FixedColumn) Unsafe.arrayGet(columns, i)).putLong(Unsafe.getUnsafe().getLong(obj, m.offset));
+                        break;
+                    case ColumnType.DOUBLE:
+                        ((FixedColumn) Unsafe.arrayGet(columns, i)).putDouble(Unsafe.getUnsafe().getDouble(obj, m.offset));
+                        break;
+                    case ColumnType.FLOAT:
+                        ((FixedColumn) Unsafe.arrayGet(columns, i)).putFloat(Unsafe.getUnsafe().getFloat(obj, m.offset));
+                        break;
+                    case ColumnType.SHORT:
+                        ((FixedColumn) Unsafe.arrayGet(columns, i)).putShort(Unsafe.getUnsafe().getShort(obj, m.offset));
+                        break;
+                    case ColumnType.BYTE:
+                        ((FixedColumn) Unsafe.arrayGet(columns, i)).putByte(Unsafe.getUnsafe().getByte(obj, m.offset));
+                        break;
+                    case ColumnType.BOOLEAN:
+                        ((FixedColumn) Unsafe.arrayGet(columns, i)).putBool(Unsafe.getUnsafe().getBoolean(obj, m.offset));
+                        break;
                     default:
                         ((FixedColumn) Unsafe.arrayGet(columns, i)).copy(obj, m.offset);
                         break;

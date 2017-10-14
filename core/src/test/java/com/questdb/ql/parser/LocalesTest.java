@@ -7,71 +7,265 @@ public class LocalesTest extends AbstractOptimiserTest {
     @Test
     public void testView() throws Exception {
         assertThat("\n" +
+                        "af\n" +
+                        "af-NA\n" +
+                        "af-ZA\n" +
+                        "agq\n" +
+                        "agq-CM\n" +
+                        "ak\n" +
+                        "ak-GH\n" +
+                        "am\n" +
+                        "am-ET\n" +
                         "ar\n" +
+                        "ar-001\n" +
                         "ar-AE\n" +
                         "ar-BH\n" +
+                        "ar-DJ\n" +
                         "ar-DZ\n" +
                         "ar-EG\n" +
+                        "ar-EH\n" +
+                        "ar-ER\n" +
+                        "ar-IL\n" +
                         "ar-IQ\n" +
                         "ar-JO\n" +
+                        "ar-KM\n" +
                         "ar-KW\n" +
                         "ar-LB\n" +
                         "ar-LY\n" +
                         "ar-MA\n" +
+                        "ar-MR\n" +
                         "ar-OM\n" +
+                        "ar-PS\n" +
                         "ar-QA\n" +
                         "ar-SA\n" +
                         "ar-SD\n" +
+                        "ar-SO\n" +
+                        "ar-SS\n" +
                         "ar-SY\n" +
+                        "ar-TD\n" +
                         "ar-TN\n" +
                         "ar-YE\n" +
+                        "as\n" +
+                        "as-IN\n" +
+                        "asa\n" +
+                        "asa-TZ\n" +
+                        "ast\n" +
+                        "ast-ES\n" +
+                        "az\n" +
+                        "az-AZ\n" +
+                        "az-Cyrl\n" +
+                        "az-Cyrl-AZ\n" +
+                        "az-Latn\n" +
+                        "az-Latn-AZ\n" +
+                        "bas\n" +
+                        "bas-CM\n" +
                         "be\n" +
                         "be-BY\n" +
+                        "bem\n" +
+                        "bem-ZM\n" +
+                        "bez\n" +
+                        "bez-TZ\n" +
                         "bg\n" +
                         "bg-BG\n" +
+                        "bm\n" +
+                        "bm-ML\n" +
+                        "bn\n" +
+                        "bn-BD\n" +
+                        "bn-IN\n" +
+                        "bo\n" +
+                        "bo-CN\n" +
+                        "bo-IN\n" +
+                        "br\n" +
+                        "br-FR\n" +
+                        "brx\n" +
+                        "brx-IN\n" +
+                        "bs\n" +
+                        "bs-BA\n" +
+                        "bs-Cyrl\n" +
+                        "bs-Cyrl-BA\n" +
+                        "bs-Latn\n" +
+                        "bs-Latn-BA\n" +
                         "ca\n" +
+                        "ca-AD\n" +
                         "ca-ES\n" +
+                        "ca-ES-VALENCIA\n" +
+                        "ca-FR\n" +
+                        "ca-IT\n" +
+                        "ce\n" +
+                        "ce-RU\n" +
+                        "cgg\n" +
+                        "cgg-UG\n" +
+                        "chr\n" +
+                        "chr-US\n" +
+                        "ckb\n" +
+                        "ckb-IQ\n" +
+                        "ckb-IR\n" +
                         "cs\n" +
                         "cs-CZ\n" +
+                        "cu\n" +
+                        "cu-RU\n" +
+                        "cy\n" +
+                        "cy-GB\n" +
                         "da\n" +
                         "da-DK\n" +
+                        "da-GL\n" +
+                        "dav\n" +
+                        "dav-KE\n" +
                         "de\n" +
                         "de-AT\n" +
+                        "de-BE\n" +
                         "de-CH\n" +
                         "de-DE\n" +
-                        "de-GR\n" +
+                        "de-LI\n" +
                         "de-LU\n" +
+                        "dje\n" +
+                        "dje-NE\n" +
+                        "dsb\n" +
+                        "dsb-DE\n" +
+                        "dua\n" +
+                        "dua-CM\n" +
+                        "dyo\n" +
+                        "dyo-SN\n" +
+                        "dz\n" +
+                        "dz-BT\n" +
+                        "ebu\n" +
+                        "ebu-KE\n" +
+                        "ee\n" +
+                        "ee-GH\n" +
+                        "ee-TG\n" +
                         "el\n" +
                         "el-CY\n" +
                         "el-GR\n" +
                         "en\n" +
+                        "en-001\n" +
+                        "en-150\n" +
+                        "en-AG\n" +
+                        "en-AI\n" +
+                        "en-AS\n" +
+                        "en-AT\n" +
                         "en-AU\n" +
+                        "en-BB\n" +
+                        "en-BE\n" +
+                        "en-BI\n" +
+                        "en-BM\n" +
+                        "en-BS\n" +
+                        "en-BW\n" +
+                        "en-BZ\n" +
                         "en-CA\n" +
+                        "en-CC\n" +
+                        "en-CH\n" +
+                        "en-CK\n" +
+                        "en-CM\n" +
+                        "en-CX\n" +
+                        "en-CY\n" +
+                        "en-DE\n" +
+                        "en-DG\n" +
+                        "en-DK\n" +
+                        "en-DM\n" +
+                        "en-ER\n" +
+                        "en-FI\n" +
+                        "en-FJ\n" +
+                        "en-FK\n" +
+                        "en-FM\n" +
                         "en-GB\n" +
+                        "en-GD\n" +
+                        "en-GG\n" +
+                        "en-GH\n" +
+                        "en-GI\n" +
+                        "en-GM\n" +
+                        "en-GU\n" +
+                        "en-GY\n" +
+                        "en-HK\n" +
                         "en-IE\n" +
+                        "en-IL\n" +
+                        "en-IM\n" +
                         "en-IN\n" +
+                        "en-IO\n" +
+                        "en-JE\n" +
+                        "en-JM\n" +
+                        "en-KE\n" +
+                        "en-KI\n" +
+                        "en-KN\n" +
+                        "en-KY\n" +
+                        "en-LC\n" +
+                        "en-LR\n" +
+                        "en-LS\n" +
+                        "en-MG\n" +
+                        "en-MH\n" +
+                        "en-MO\n" +
+                        "en-MP\n" +
+                        "en-MS\n" +
                         "en-MT\n" +
+                        "en-MU\n" +
+                        "en-MW\n" +
+                        "en-MY\n" +
+                        "en-NA\n" +
+                        "en-NF\n" +
+                        "en-NG\n" +
+                        "en-NL\n" +
+                        "en-NR\n" +
+                        "en-NU\n" +
                         "en-NZ\n" +
+                        "en-PG\n" +
                         "en-PH\n" +
+                        "en-PK\n" +
+                        "en-PN\n" +
+                        "en-PR\n" +
+                        "en-PW\n" +
+                        "en-RW\n" +
+                        "en-SB\n" +
+                        "en-SC\n" +
+                        "en-SD\n" +
+                        "en-SE\n" +
                         "en-SG\n" +
+                        "en-SH\n" +
+                        "en-SI\n" +
+                        "en-SL\n" +
+                        "en-SS\n" +
+                        "en-SX\n" +
+                        "en-SZ\n" +
+                        "en-TC\n" +
+                        "en-TK\n" +
+                        "en-TO\n" +
+                        "en-TT\n" +
+                        "en-TV\n" +
+                        "en-TZ\n" +
+                        "en-UG\n" +
+                        "en-UM\n" +
                         "en-US\n" +
+                        "en-US-POSIX\n" +
+                        "en-VC\n" +
+                        "en-VG\n" +
+                        "en-VI\n" +
+                        "en-VU\n" +
+                        "en-WS\n" +
                         "en-ZA\n" +
+                        "en-ZM\n" +
+                        "en-ZW\n" +
+                        "eo\n" +
+                        "eo-001\n" +
                         "es\n" +
+                        "es-419\n" +
                         "es-AR\n" +
                         "es-BO\n" +
+                        "es-BR\n" +
                         "es-CL\n" +
                         "es-CO\n" +
                         "es-CR\n" +
                         "es-CU\n" +
                         "es-DO\n" +
+                        "es-EA\n" +
                         "es-EC\n" +
                         "es-ES\n" +
+                        "es-GQ\n" +
                         "es-GT\n" +
                         "es-HN\n" +
+                        "es-IC\n" +
                         "es-MX\n" +
                         "es-NI\n" +
                         "es-PA\n" +
                         "es-PE\n" +
+                        "es-PH\n" +
                         "es-PR\n" +
                         "es-PY\n" +
                         "es-SV\n" +
@@ -80,92 +274,473 @@ public class LocalesTest extends AbstractOptimiserTest {
                         "es-VE\n" +
                         "et\n" +
                         "et-EE\n" +
+                        "eu\n" +
+                        "eu-ES\n" +
+                        "ewo\n" +
+                        "ewo-CM\n" +
+                        "fa\n" +
+                        "fa-AF\n" +
+                        "fa-IR\n" +
+                        "ff\n" +
+                        "ff-CM\n" +
+                        "ff-GN\n" +
+                        "ff-MR\n" +
+                        "ff-SN\n" +
                         "fi\n" +
                         "fi-FI\n" +
+                        "fil\n" +
+                        "fil-PH\n" +
+                        "fo\n" +
+                        "fo-DK\n" +
+                        "fo-FO\n" +
                         "fr\n" +
                         "fr-BE\n" +
+                        "fr-BF\n" +
+                        "fr-BI\n" +
+                        "fr-BJ\n" +
+                        "fr-BL\n" +
                         "fr-CA\n" +
+                        "fr-CD\n" +
+                        "fr-CF\n" +
+                        "fr-CG\n" +
                         "fr-CH\n" +
+                        "fr-CI\n" +
+                        "fr-CM\n" +
+                        "fr-DJ\n" +
+                        "fr-DZ\n" +
                         "fr-FR\n" +
+                        "fr-GA\n" +
+                        "fr-GF\n" +
+                        "fr-GN\n" +
+                        "fr-GP\n" +
+                        "fr-GQ\n" +
+                        "fr-HT\n" +
+                        "fr-KM\n" +
                         "fr-LU\n" +
+                        "fr-MA\n" +
+                        "fr-MC\n" +
+                        "fr-MF\n" +
+                        "fr-MG\n" +
+                        "fr-ML\n" +
+                        "fr-MQ\n" +
+                        "fr-MR\n" +
+                        "fr-MU\n" +
+                        "fr-NC\n" +
+                        "fr-NE\n" +
+                        "fr-PF\n" +
+                        "fr-PM\n" +
+                        "fr-RE\n" +
+                        "fr-RW\n" +
+                        "fr-SC\n" +
+                        "fr-SN\n" +
+                        "fr-SY\n" +
+                        "fr-TD\n" +
+                        "fr-TG\n" +
+                        "fr-TN\n" +
+                        "fr-VU\n" +
+                        "fr-WF\n" +
+                        "fr-YT\n" +
+                        "fur\n" +
+                        "fur-IT\n" +
+                        "fy\n" +
+                        "fy-NL\n" +
                         "ga\n" +
                         "ga-IE\n" +
+                        "gd\n" +
+                        "gd-GB\n" +
+                        "gl\n" +
+                        "gl-ES\n" +
+                        "gsw\n" +
+                        "gsw-CH\n" +
+                        "gsw-FR\n" +
+                        "gsw-LI\n" +
+                        "gu\n" +
+                        "gu-IN\n" +
+                        "guz\n" +
+                        "guz-KE\n" +
+                        "gv\n" +
+                        "gv-IM\n" +
+                        "ha\n" +
+                        "ha-GH\n" +
+                        "ha-NE\n" +
+                        "ha-NG\n" +
+                        "haw\n" +
+                        "haw-US\n" +
                         "he\n" +
                         "he-IL\n" +
                         "hi\n" +
                         "hi-IN\n" +
                         "hr\n" +
+                        "hr-BA\n" +
                         "hr-HR\n" +
+                        "hsb\n" +
+                        "hsb-DE\n" +
                         "hu\n" +
                         "hu-HU\n" +
+                        "hy\n" +
+                        "hy-AM\n" +
                         "id\n" +
                         "id-ID\n" +
+                        "ig\n" +
+                        "ig-NG\n" +
+                        "ii\n" +
+                        "ii-CN\n" +
                         "is\n" +
                         "is-IS\n" +
                         "it\n" +
                         "it-CH\n" +
                         "it-IT\n" +
+                        "it-SM\n" +
                         "ja\n" +
                         "ja-JP\n" +
                         "ja-JP-u-ca-japanese-x-lvariant-JP\n" +
+                        "jgo\n" +
+                        "jgo-CM\n" +
+                        "jmc\n" +
+                        "jmc-TZ\n" +
+                        "ka\n" +
+                        "ka-GE\n" +
+                        "kab\n" +
+                        "kab-DZ\n" +
+                        "kam\n" +
+                        "kam-KE\n" +
+                        "kde\n" +
+                        "kde-TZ\n" +
+                        "kea\n" +
+                        "kea-CV\n" +
+                        "khq\n" +
+                        "khq-ML\n" +
+                        "ki\n" +
+                        "ki-KE\n" +
+                        "kk\n" +
+                        "kk-KZ\n" +
+                        "kkj\n" +
+                        "kkj-CM\n" +
+                        "kl\n" +
+                        "kl-GL\n" +
+                        "kln\n" +
+                        "kln-KE\n" +
+                        "km\n" +
+                        "km-KH\n" +
+                        "kn\n" +
+                        "kn-IN\n" +
                         "ko\n" +
+                        "ko-KP\n" +
                         "ko-KR\n" +
+                        "kok\n" +
+                        "kok-IN\n" +
+                        "ks\n" +
+                        "ks-IN\n" +
+                        "ksb\n" +
+                        "ksb-TZ\n" +
+                        "ksf\n" +
+                        "ksf-CM\n" +
+                        "ksh\n" +
+                        "ksh-DE\n" +
+                        "kw\n" +
+                        "kw-GB\n" +
+                        "ky\n" +
+                        "ky-KG\n" +
+                        "lag\n" +
+                        "lag-TZ\n" +
+                        "lb\n" +
+                        "lb-LU\n" +
+                        "lg\n" +
+                        "lg-UG\n" +
+                        "lkt\n" +
+                        "lkt-US\n" +
+                        "ln\n" +
+                        "ln-AO\n" +
+                        "ln-CD\n" +
+                        "ln-CF\n" +
+                        "ln-CG\n" +
+                        "lo\n" +
+                        "lo-LA\n" +
+                        "lrc\n" +
+                        "lrc-IQ\n" +
+                        "lrc-IR\n" +
                         "lt\n" +
                         "lt-LT\n" +
+                        "lu\n" +
+                        "lu-CD\n" +
+                        "luo\n" +
+                        "luo-KE\n" +
+                        "luy\n" +
+                        "luy-KE\n" +
                         "lv\n" +
                         "lv-LV\n" +
+                        "mas\n" +
+                        "mas-KE\n" +
+                        "mas-TZ\n" +
+                        "mer\n" +
+                        "mer-KE\n" +
+                        "mfe\n" +
+                        "mfe-MU\n" +
+                        "mg\n" +
+                        "mg-MG\n" +
+                        "mgh\n" +
+                        "mgh-MZ\n" +
+                        "mgo\n" +
+                        "mgo-CM\n" +
                         "mk\n" +
                         "mk-MK\n" +
+                        "ml\n" +
+                        "ml-IN\n" +
+                        "mn\n" +
+                        "mn-MN\n" +
+                        "mr\n" +
+                        "mr-IN\n" +
                         "ms\n" +
+                        "ms-BN\n" +
                         "ms-MY\n" +
+                        "ms-SG\n" +
                         "mt\n" +
                         "mt-MT\n" +
+                        "mua\n" +
+                        "mua-CM\n" +
+                        "my\n" +
+                        "my-MM\n" +
+                        "mzn\n" +
+                        "mzn-IR\n" +
+                        "naq\n" +
+                        "naq-NA\n" +
+                        "nb\n" +
+                        "nb-NO\n" +
+                        "nb-SJ\n" +
+                        "nd\n" +
+                        "nd-ZW\n" +
+                        "ne\n" +
+                        "ne-IN\n" +
+                        "ne-NP\n" +
                         "nl\n" +
+                        "nl-AW\n" +
                         "nl-BE\n" +
+                        "nl-BQ\n" +
+                        "nl-CW\n" +
                         "nl-NL\n" +
+                        "nl-SR\n" +
+                        "nl-SX\n" +
+                        "nmg\n" +
+                        "nmg-CM\n" +
+                        "nn\n" +
                         "nn-NO\n" +
+                        "nnh\n" +
+                        "nnh-CM\n" +
                         "no\n" +
                         "no-NO\n" +
+                        "nus\n" +
+                        "nus-SS\n" +
+                        "nyn\n" +
+                        "nyn-UG\n" +
+                        "om\n" +
+                        "om-ET\n" +
+                        "om-KE\n" +
+                        "or\n" +
+                        "or-IN\n" +
+                        "os\n" +
+                        "os-GE\n" +
+                        "os-RU\n" +
+                        "pa\n" +
+                        "pa-Arab\n" +
+                        "pa-Arab-PK\n" +
+                        "pa-Guru\n" +
+                        "pa-Guru-IN\n" +
+                        "pa-IN\n" +
+                        "pa-PK\n" +
                         "pl\n" +
                         "pl-PL\n" +
+                        "prg\n" +
+                        "prg-001\n" +
+                        "ps\n" +
+                        "ps-AF\n" +
                         "pt\n" +
+                        "pt-AO\n" +
                         "pt-BR\n" +
+                        "pt-CH\n" +
+                        "pt-CV\n" +
+                        "pt-GQ\n" +
+                        "pt-GW\n" +
+                        "pt-LU\n" +
+                        "pt-MO\n" +
+                        "pt-MZ\n" +
                         "pt-PT\n" +
+                        "pt-ST\n" +
+                        "pt-TL\n" +
+                        "qu\n" +
+                        "qu-BO\n" +
+                        "qu-EC\n" +
+                        "qu-PE\n" +
+                        "rm\n" +
+                        "rm-CH\n" +
+                        "rn\n" +
+                        "rn-BI\n" +
                         "ro\n" +
+                        "ro-MD\n" +
                         "ro-RO\n" +
+                        "rof\n" +
+                        "rof-TZ\n" +
                         "ru\n" +
+                        "ru-BY\n" +
+                        "ru-KG\n" +
+                        "ru-KZ\n" +
+                        "ru-MD\n" +
                         "ru-RU\n" +
+                        "ru-UA\n" +
+                        "rw\n" +
+                        "rw-RW\n" +
+                        "rwk\n" +
+                        "rwk-TZ\n" +
+                        "sah\n" +
+                        "sah-RU\n" +
+                        "saq\n" +
+                        "saq-KE\n" +
+                        "sbp\n" +
+                        "sbp-TZ\n" +
+                        "se\n" +
+                        "se-FI\n" +
+                        "se-NO\n" +
+                        "se-SE\n" +
+                        "seh\n" +
+                        "seh-MZ\n" +
+                        "ses\n" +
+                        "ses-ML\n" +
+                        "sg\n" +
+                        "sg-CF\n" +
+                        "shi\n" +
+                        "shi-Latn\n" +
+                        "shi-Latn-MA\n" +
+                        "shi-MA\n" +
+                        "shi-Tfng\n" +
+                        "shi-Tfng-MA\n" +
+                        "si\n" +
+                        "si-LK\n" +
                         "sk\n" +
                         "sk-SK\n" +
                         "sl\n" +
                         "sl-SI\n" +
+                        "smn\n" +
+                        "smn-FI\n" +
+                        "sn\n" +
+                        "sn-ZW\n" +
+                        "so\n" +
+                        "so-DJ\n" +
+                        "so-ET\n" +
+                        "so-KE\n" +
+                        "so-SO\n" +
                         "sq\n" +
                         "sq-AL\n" +
+                        "sq-MK\n" +
+                        "sq-XK\n" +
                         "sr\n" +
                         "sr-BA\n" +
                         "sr-CS\n" +
+                        "sr-Cyrl\n" +
+                        "sr-Cyrl-BA\n" +
+                        "sr-Cyrl-ME\n" +
+                        "sr-Cyrl-RS\n" +
+                        "sr-Cyrl-XK\n" +
                         "sr-Latn\n" +
                         "sr-Latn-BA\n" +
                         "sr-Latn-ME\n" +
                         "sr-Latn-RS\n" +
+                        "sr-Latn-XK\n" +
                         "sr-ME\n" +
                         "sr-RS\n" +
                         "sv\n" +
+                        "sv-AX\n" +
+                        "sv-FI\n" +
                         "sv-SE\n" +
+                        "sw\n" +
+                        "sw-CD\n" +
+                        "sw-KE\n" +
+                        "sw-TZ\n" +
+                        "sw-UG\n" +
+                        "ta\n" +
+                        "ta-IN\n" +
+                        "ta-LK\n" +
+                        "ta-MY\n" +
+                        "ta-SG\n" +
+                        "te\n" +
+                        "te-IN\n" +
+                        "teo\n" +
+                        "teo-KE\n" +
+                        "teo-UG\n" +
                         "th\n" +
                         "th-TH\n" +
                         "th-TH-u-nu-thai-x-lvariant-TH\n" +
+                        "ti\n" +
+                        "ti-ER\n" +
+                        "ti-ET\n" +
+                        "tk\n" +
+                        "tk-TM\n" +
+                        "to\n" +
+                        "to-TO\n" +
                         "tr\n" +
+                        "tr-CY\n" +
                         "tr-TR\n" +
+                        "twq\n" +
+                        "twq-NE\n" +
+                        "tzm\n" +
+                        "tzm-MA\n" +
+                        "ug\n" +
+                        "ug-CN\n" +
                         "uk\n" +
                         "uk-UA\n" +
+                        "ur\n" +
+                        "ur-IN\n" +
+                        "ur-PK\n" +
+                        "uz\n" +
+                        "uz-AF\n" +
+                        "uz-Arab\n" +
+                        "uz-Arab-AF\n" +
+                        "uz-Cyrl\n" +
+                        "uz-Cyrl-UZ\n" +
+                        "uz-Latn\n" +
+                        "uz-Latn-UZ\n" +
+                        "uz-UZ\n" +
+                        "vai\n" +
+                        "vai-LR\n" +
+                        "vai-Latn\n" +
+                        "vai-Latn-LR\n" +
+                        "vai-Vaii\n" +
+                        "vai-Vaii-LR\n" +
                         "vi\n" +
                         "vi-VN\n" +
+                        "vo\n" +
+                        "vo-001\n" +
+                        "vun\n" +
+                        "vun-TZ\n" +
+                        "wae\n" +
+                        "wae-CH\n" +
+                        "xog\n" +
+                        "xog-UG\n" +
+                        "yav\n" +
+                        "yav-CM\n" +
+                        "yi\n" +
+                        "yi-001\n" +
+                        "yo\n" +
+                        "yo-BJ\n" +
+                        "yo-NG\n" +
+                        "yue\n" +
+                        "yue-HK\n" +
+                        "zgh\n" +
+                        "zgh-MA\n" +
                         "zh\n" +
                         "zh-CN\n" +
                         "zh-HK\n" +
+                        "zh-Hans\n" +
+                        "zh-Hans-CN\n" +
+                        "zh-Hans-HK\n" +
+                        "zh-Hans-MO\n" +
+                        "zh-Hans-SG\n" +
+                        "zh-Hant\n" +
+                        "zh-Hant-HK\n" +
+                        "zh-Hant-MO\n" +
+                        "zh-Hant-TW\n" +
                         "zh-SG\n" +
-                        "zh-TW\n",
+                        "zh-TW\n" +
+                        "zu\n" +
+                        "zu-ZA\n",
                 "$locales order by tag");
     }
 }
